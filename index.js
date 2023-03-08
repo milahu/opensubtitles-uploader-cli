@@ -2,6 +2,8 @@ import fs from "fs"
 import path from "path"
 
 import OS from "opensubtitles-api"
+// TODO new api
+//import OS from "opensubtitles.com"
 import minimist from "minimist"
 import ffprobe from "ffprobe-client"
 
