@@ -5,7 +5,7 @@ import OS from "opensubtitles-api"
 import minimist from "minimist"
 import ffprobe from "ffprobe-client"
 
-const appName = "opensubtitles-uploader-cli"
+const appName = "opensubtitles-uploader"
 const siteName = "opensubtitles.org"
 
 main().then(result => process.exit(result))
