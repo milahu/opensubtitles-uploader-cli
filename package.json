@@ -4,6 +4,9 @@
   "description": "upload movie subtitles to opensubtitles.org",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "opensubtitles-uploader": "index.js"
+  },
   "keywords": [
     "subtitle",
     "subtitles",
